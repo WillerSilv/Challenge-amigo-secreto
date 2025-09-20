@@ -4,7 +4,6 @@ Cansado de cortar papéis e ter que refazer o sorteio porque alguém tirou o pr�
 
 Este projeto é uma ferramenta simples e charmosa para organizar o amigo secreto da sua família, amigos ou equipe de trabalho. Chega de papelzinhos amassados e sorteios complicados. Com alguns cliques, está tudo resolvido!
 
-![Banner da aplicação Amigo Secreto](assets/amigo-secreto.png)
 
 ## ✨ O que ele faz?
 
