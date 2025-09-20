@@ -32,12 +32,12 @@ Se você quiser bisbilhotar o código, aqui está o mapa do tesouro:
 
 .
 ├── 📁 assets/
-│ ├── amigo-secreto.png
-│ └── play_circle_outline.png
-├── 📜 index.html
-├── 📜 style.css
-├── 📜 app.js
-└── 📜 README.md
+│   ├── amigo-secreto.png     
+│   └── play_circle_outline.png  
+├── 📜 index.html               
+├── 📜 style.css                
+├── 📜 app.js                  
+└── 📜 README.md                
 
 
 ## 🚀 Como começar
