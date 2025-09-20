@@ -1,0 +1,222 @@
+:root {
+    --color-primary: #4B69FD;
+    --color-secondary: #FFF9EB;
+    --color-tertiary: #C4C4C4;
+    --color-button: #fe652b;
+    --color-button-hover: #e55720;
+    --color-text: #444444;
+    --color-white: #FFFFFF;
+    --color-restart: #ffc107; 
+    --color-restart-hover: #e0a800;
+    --color-clear: #dc3545; 
+    --color-clear-hover: #c82333;
+}
+
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Banner */
+.header-banner {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header-banner img {
+    max-height: 250px;
+    max-width: 90%;
+}
+
+/* Seção de entrada */
+.input-section {
+    flex-grow: 1;
+    background-color: var(--color-secondary);
+    border: 1px solid #000;
+    border-radius: 64px 64px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    overflow-y: auto;
+}
+
+/* Títulos */
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Contêineres de entrada e botão */
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+.input-name {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #000;
+    border-radius: 25px 0 0 25px;
+    font-size: 16px;
+    border-right: none;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 30px;
+}
+
+/* Estilos de botão */
+button {
+    padding: 15px 30px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px solid #000;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+.button-add {
+    background-color: var(--color-tertiary);
+    color: var(--color-text);
+    border-radius: 0 25px 25px 0;
+    padding: 12px 20px;
+}
+
+.button-add:hover {
+    background-color: #a1a1a1;
+}
+
+/* Listas */
+.lista-de-amigos {
+    margin-top: 25px;
+    color: var(--color-text);
+    font-size: 18px;
+    text-align: center;
+    min-height: 50px;
+}
+
+.lista-de-amigos p {
+    color: var(--color-primary);
+    font-weight: bold;
+    padding: 5px 15px;
+}
+
+.result-list {
+    list-style-type: none;
+    margin-top: 20px;
+    color: #008000;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    max-width: 400px;
+}
+
+.result-list li {
+    margin-bottom: 8px;
+}
+
+/* Botões de Ação */
+.button-draw {
+    color: var(--color-white);
+    background-color: var(--color-button);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-draw img {
+    margin-right: 10px;
+    height: 24px;
+}
+
+.button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+
+.button-restart {
+    background-color: var(--color-restart);
+    color: var(--color-text);
+}
+
+.button-restart:hover {
+    background-color: var(--color-restart-hover);
+}
+
+/* --- Seção de Histórico --- */
+.history-section {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px solid var(--color-tertiary);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.history-section h3 {
+    font-size: 18px;
+    color: var(--color-text);
+    margin-bottom: 10px;
+}
+
+.history-section p {
+    font-size: 16px;
+    color: #6c757d;
+    font-style: italic;
+    min-height: 24px;
+    margin-bottom: 15px;
+    word-break: break-all; 
+}
+
+.button-clear {
+    background-color: var(--color-clear);
+    color: var(--color-white);
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.button-clear:hover {
+    background-color: var(--color-clear-hover);
+}
+ 
